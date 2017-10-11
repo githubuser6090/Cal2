@@ -12,7 +12,9 @@ package cal2;
 public class Cal2 {
 
     public int Add (String s1, String s2){
-        return 0;
+        int d1 = Integer.parseInt(s1);
+        int d2 = Integer.parseInt (s2);
+        return d1 + d2;
     }
     /**
      * @param args the command line arguments
